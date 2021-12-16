@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "menu-instrumentos-comunicacao-diretores-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/menuInstrumentosComunicacaoDiretores/MenuInstrumentosComunicacaoDiretoresWebPart.js",
+          "manifest": "./src/webparts/menuInstrumentosComunicacaoDiretores/MenuInstrumentosComunicacaoDiretoresWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MenuInstrumentosComunicacaoDiretoresWebPartStrings": "lib/webparts/menuInstrumentosComunicacaoDiretores/loc/{locale}.js"
+  }
+}
